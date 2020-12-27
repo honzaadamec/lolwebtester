@@ -56,7 +56,7 @@
               <form action="includes/logout.inc.php" method="post">
               <div class="row vertical-gap">
                   <div class="col-md-6">
-                      <button type="submit" name="logout-submit">Logout</button>
+                      <button class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="logout-submit">Logout</button>
                   </div>
               </div>
               </form>';
@@ -81,7 +81,7 @@
                   <div class="nk-gap-1"></div>
                   <div class="row vertical-gap">
                       <div class="col-md-6">
-                          <button type="submit" name="login-submit">Login</button>
+                          <button class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="login-submit">Login</button>
                       </div>
                       <div class="col-md-6">
                           <div class="mnt-5">
