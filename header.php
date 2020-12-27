@@ -41,14 +41,6 @@
                   <button type="submit" name="logout-submit">Logout</button>
                 </form>';
               }
-              else {
-                echo '<form action="includes/login.inc.php" method="post">
-                  <input type="text" name="mailuid" placeholder="E-mail...">
-                  <input type="password" name="pwd" placeholder="Password...">
-                  <button type="submit" name="login-submit">Login</button>
-                </form>
-              <a href="signup.php">Signup</a>';
-              }
            ?>
           </ul>
         </div>
@@ -81,7 +73,9 @@
 
                 <div class="nk-gap-1"></div>
                 <div class="row vertical-gap">
-                    <button type="submit" name="login-submit">Login</button>
+                    <div class="col-md-6">
+                        <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="login-submit">Sign In</a>
+                    </div>
                     <div class="col-md-6">
                         <div class="mnt-5">
                             <small><a href="#">Zapomněl jsi heslo?</a></small>
