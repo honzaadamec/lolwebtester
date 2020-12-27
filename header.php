@@ -35,13 +35,11 @@
                     <span class="fa fa-user"></span>
                 </a>
             </li>
-          <?php
-              if (isset($_SESSION['userId'])) {
-                echo '<form action="includes/logout.inc.php" method="post">
-                  <button type="submit" name="logout-submit">Logout</button>
-                </form>';
-              }
-           ?>
+            <div>
+              <form action="includes/logout.inc.php" method="post">
+                <button type="submit" name="logout-submit">Logout</button>
+              </form>
+            </div>
           </ul>
         </div>
       </div>
@@ -74,7 +72,7 @@
                 <div class="nk-gap-1"></div>
                 <div class="row vertical-gap">
                     <div class="col-md-6">
-                        <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="login-submit">Sign In</a>
+                        <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="login-submit">Přihlásit</a>
                     </div>
                     <div class="col-md-6">
                         <div class="mnt-5">
