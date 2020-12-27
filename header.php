@@ -60,6 +60,7 @@
                   <div class="col-md-6">
                       <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="logout-submit">Odhlasit</a>
                   </div>';
+            }
             else {
               echo'
               <h4 class="mb-0"><span class="text-main-1">Přihlásit</span> se</h4>
