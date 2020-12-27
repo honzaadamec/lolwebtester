@@ -56,7 +56,7 @@
               <form action="includes/logout.inc.php" method="post">
               <div class="row vertical-gap">
                   <div class="col-md-6">
-                      <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="logout-submit">Odhlasit</a>
+                      <button type="submit" name="logout-submit">Logout</button>
                   </div>
               </div>
               </form>';
