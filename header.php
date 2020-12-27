@@ -63,7 +63,7 @@
               <h4 class="mb-0"><span class="text-main-1">Přihlásit</span> se</h4>
 
               <div class="nk-gap-1"></div>
-              <form action="includes/login.inc.php" class="nk-form text-white">
+              <form action="includes/login.inc.php" method="post" class="nk-form text-white">
                   <div class="row vertical-gap">
                       <div class="col-md-6">
                           Použij email a heslo:
