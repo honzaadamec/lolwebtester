@@ -59,7 +59,7 @@
                       <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="logout-submit">Odhlasit</a>
                   </div>
               </div>
-              </form>'
+              </form>';
             }
             else {
               echo'
