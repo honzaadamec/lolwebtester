@@ -53,37 +53,47 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span class="ion-android-close"></span>
             </button>
+            <?php
+            if (isset($_SESSION['userId'])) {
+              echo '<div class="nk-gap-1"></div>
+              <div class="row vertical-gap">
+                  <div class="col-md-6">
+                      <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="logout-submit">Odhlasit</a>
+                  </div>';
+            else {
+              echo'
+              <h4 class="mb-0"><span class="text-main-1">Přihlásit</span> se</h4>
 
-            <h4 class="mb-0"><span class="text-main-1">Přihlásit</span> se</h4>
+              <div class="nk-gap-1"></div>
+              <form action="includes/login.inc.php" class="nk-form text-white">
+                  <div class="row vertical-gap">
+                      <div class="col-md-6">
+                          Použij email a heslo:
 
-            <div class="nk-gap-1"></div>
-            <form action="includes/login.inc.php" class="nk-form text-white">
-                <div class="row vertical-gap">
-                    <div class="col-md-6">
-                        Použij email a heslo:
+                          <div class="nk-gap"></div>
+                          <input type="text" name="mailuid" class=" form-control" placeholder="Email">
+                          <div class="nk-gap"></div>
+                          <input type="password" name="pwd" class="required form-control" placeholder="Heslo">
+                      </div>
+                  </div>
 
-                        <div class="nk-gap"></div>
-                        <input type="text" name="mailuid" class=" form-control" placeholder="Email">
-                        <div class="nk-gap"></div>
-                        <input type="password" name="pwd" class="required form-control" placeholder="Heslo">
-                    </div>
-                </div>
-
-                <div class="nk-gap-1"></div>
-                <div class="row vertical-gap">
-                    <div class="col-md-6">
-                        <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="login-submit">Přihlásit</a>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mnt-5">
-                            <small><a href="#">Zapomněl jsi heslo?</a></small>
-                        </div>
-                        <div class="mnt-5">
-                            <small><a href="#">Nejsi členem. Registruj se!</a></small>
-                        </div>
-                    </div>
-                </div>
-            </form>
+                  <div class="nk-gap-1"></div>
+                  <div class="row vertical-gap">
+                      <div class="col-md-6">
+                          <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="login-submit">Přihlásit</a>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="mnt-5">
+                              <small><a href=#">Zapomněl jsi heslo?</a></small>
+                          </div>
+                          <div class="mnt-5">
+                              <small><a href="#">Nejsi členem. Registruj se!</a></small>
+                          </div>
+                      </div>
+                  </div>
+                </form>';
+              }
+            ?>
         </div>
     </div>
   </div>
