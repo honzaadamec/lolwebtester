@@ -27,13 +27,14 @@
 </head>
   <body>
     <header class="nk-header nk-header-opaque">
-      <nav>
-        <a href="#">
-        </a>
-        <ul>
-          <li><a href="index.php">Home</a></li>
-        </ul>
-        <div>
+      <div class="nk-contacts-top">
+        <div class="nk-contacts-right">
+          <ul class="nk-contacts-icons">
+            <li>
+                <a href="#" data-toggle="modal" data-target="#modalLogin">
+                    <span class="fa fa-user"></span>
+                </a>
+            </li>
           <?php
               if (isset($_SESSION['userId'])) {
                 echo '<form action="includes/logout.inc.php" method="post">
@@ -49,6 +50,8 @@
               <a href="signup.php">Signup</a>';
               }
            ?>
-      </nav>
+          </ul>
+        </div>
+      </div>
     </header>
   </body>
