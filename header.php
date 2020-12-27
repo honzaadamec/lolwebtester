@@ -78,7 +78,7 @@
                   <div class="nk-gap-1"></div>
                   <div class="row vertical-gap">
                       <div class="col-md-6">
-                          <button class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="login-submit">Přihlásit</button>
+                          <button type="submit" name="login-submit">Login</button>
                       </div>
                       <div class="col-md-6">
                           <div class="mnt-5">
