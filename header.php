@@ -53,10 +53,13 @@
             <?php
             if (isset($_SESSION['userId'])) {
               echo '<div class="nk-gap-1"></div>
+              <form action="includes/logout.inc.php" method="post">
               <div class="row vertical-gap">
                   <div class="col-md-6">
-                      <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" name="logout-submit">Odhlasit</a>
-                  </div>';
+                      <a href="index.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="logout-submit">Odhlasit</a>
+                  </div>
+              </div>
+              </form>'
             }
             else {
               echo'
