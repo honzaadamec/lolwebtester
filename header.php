@@ -63,9 +63,9 @@
             }
             else {
               echo'
-              <h1 class="mb-0"><span class="text-main-1">Přihlásit</span> se</h4>
+              <h4 class="mb-0"><span class="text-main-1">Přihlásit</span> se</h4>
 
-              <div class="nk-gap-1"></div>
+              <div class="nk-gap"></div>
               <form action="includes/login.inc.php" method="post" class="nk-form text-white">
                   <div class="row vertical-gap">
                       <div class="col-md-6">
@@ -78,7 +78,7 @@
                       </div>
                   </div>
 
-                  <div class="nk-gap-1"></div>
+                  <div class="nk-gap"></div>
                   <div class="row vertical-gap">
                       <div class="col-md-6">
                           <button class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="login-submit">Přihlasit</button>
