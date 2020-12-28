@@ -81,14 +81,12 @@
                   <div class="nk-gap-1"></div>
                   <div class="row vertical-gap">
                       <div class="col-md-6">
-                          <button class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="login-submit">Login</button>
+                          <button class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block" type="submit" name="login-submit">Přihlasit</button>
                       </div>
                       <div class="col-md-6">
+                          <a href="signup.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block">Registrace</a>
                           <div class="mnt-5">
                               <small><a href=#">Zapomněl jsi heslo?</a></small>
-                          </div>
-                          <div class="mnt-5">
-                              <small><a href="#">Nejsi členem. Registruj se!</a></small>
                           </div>
                       </div>
                   </div>
