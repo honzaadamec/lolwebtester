@@ -85,7 +85,7 @@
                           <div class="nk-gap"></div>
                           <a href="signup.php" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block">Registrace</a>
                           <div class="mnt-5">
-                              <small><a href=#">Zapomněl jsi heslo?</a></small>
+                              <small><a href="reset-password.php">Zapomněl jsi heslo?</a></small>
                           </div>
                       </div>
                   </div>
